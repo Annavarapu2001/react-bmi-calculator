@@ -1,4 +1,6 @@
- ###What is useState in React?
+ ### What is useState in React?
+
+ 
 useState is a React Hook that lets you add state variables to functional components.
 
 Before hooks, only class components could hold state. Now, with useState, any functional component can hold and manage data that changes over time (like form inputs, counters, toggles, etc.).
@@ -32,7 +34,7 @@ function Counter() {
 }
 Each time the button is clicked, count increases by 1 and the UI updates automatically.
 
- ##Example 2: Input Field (Controlled Component)
+ ## Example 2: Input Field (Controlled Component)
 jsx
 Copy
 Edit
@@ -53,7 +55,7 @@ function NameInput() {
 }
 This binds the input field value to the state variable name.
 
-##Example 3: Multiple Fields (with one object)
+##  Example 3: Multiple Fields (with one object)
 jsx
 Copy
 Edit
